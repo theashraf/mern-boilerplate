@@ -1,0 +1,19 @@
+{
+	"parser": "babel-eslint",
+	"extends": [
+		"prettier",
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:security/recommended"
+	],
+	"plugins": ["prettier", "security"],
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"rules": {
+		"prettier/prettier": "error",
+		"no-unused-vars": "warn",
+		"no-console": "warn"
+	}
+}
