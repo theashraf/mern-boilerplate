@@ -1,8 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import App from "./src/App"
+import Routes from "./src/Routes"
 
-ReactDOM.render(<App />, document.getElementById("app"))
+ReactDOM.render(<Routes />, document.getElementById("app"))
 
 if (module.hot) {
 	module.hot.accept()
